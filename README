@@ -1,0 +1,70 @@
+RHYBRID
+
+RHybrid (paRallel Hybrid) is a parallel C++/MPI kinetic plasma
+simulation model platform for the solar wind and plasma interactions
+of celestial bodies. The RHybrid code is originally developed at the
+Finnish Meteorological Institute. The RHybrid code is distributed
+under the GPL v3 open source license by the Finnish Meteorological
+Institute.
+
+The latest version of RHybrid can be downloaded at:
+
+https://github.com/fmihpc/rhybrid
+
+Folders:
+
+src/: RHybrid source code
+examples/: Example simulation config files
+doc/: Documentation
+
+SIMULATION CODE
+
+RHybrid is based on the following open source libraries for space
+plasma simulations developed at the Finnish Meteorological Institute:
+
+Corsair - Parallel Simulation Platform
+https://github.com/fmihpc/corsair
+
+ParGrid - Parallel Grid
+https://github.com/fmihpc/pargrid
+
+VLSV - Parallel File Format
+https://github.com/fmihpc/vlsv
+
+Zoltan library (https://sandialabs.github.io/Zoltan/) is used for
+partitioning and balacing computational load between MPI processing
+elements.
+
+COMPILATION
+
+See INSTALL for an example how to compile.
+
+ACKNOWLEDGEMENTS, CO-AUTHORSHIP AND CITING
+
+The RHybrid developers strongly encourage offering us co-authorship as
+well as acknowledging and citing the original model when publishing or
+presenting results where RHybrid code was used. We are open for
+scientific collaborations and further development of the model and are
+committed to open science.
+
+Example acknowledgement text:
+
+"Simulations were performed using the RHybrid code distributed under
+the open source GPL v3 license by the Finnish Meteorological Institute
+(github.com/fmihpc/rhybrid)."
+
+Main reference for RHybrid:
+
+Jarvinen R., Brain D.A., Modolo R., Fedorov A., Holmström M. (2018),
+Oxygen Ion Energization at Mars: Comparison of MAVEN and Mars Express
+Observations to Global Hybrid Simulation, J. Geophys. Res., 123,
+1678-1689, doi:10.1002/2017JA024884
+
+CONTACTS
+
+Finnish Meteorological Institute:
+
+Dr. Riku Jarvinen (riku.jarvinen@fmi.fi)
+
+Copyright (c) 2015- Finnish Meteorological Institute
+
